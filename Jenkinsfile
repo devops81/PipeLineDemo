@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label "master"
+        label "Windows Node"
     }
     tools {
         maven 'Maven3'
